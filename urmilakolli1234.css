@@ -1,0 +1,794 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Dosis", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Dosis", sans-serif;
+    color: #121213;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+    margin: 0;
+  }
+.main{
+    padding: 30px 30px 0 30px;
+}
+.banner{
+    background-image: linear-gradient(
+      76deg,
+      rgba(193, 195, 204, 0.83) 35%,
+      rgba(193, 195, 204, 0.28) 65%
+    ),
+    url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-attachment: scroll, fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right:5%;
+    height: 85vh;
+    position: relative;
+    background-color: #c1c3cc;
+}
+.logo{
+    background-color: #e47312;
+    height: 110px;
+    width: 160px;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-self: stretch;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+
+    
+}
+.brand-logo{
+    width: 100%;
+}
+.navbar{
+    width: 90%;
+    background-color:#fff;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 88px;
+    
+}
+.menu{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar ul{
+    text-align:center;
+    position: relative;
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+    padding: 31px 14px;
+    color:#414147;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+
+    transition: 0.2s;
+
+}
+.btn{
+    width: 160px;
+    background-color: #e47312;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 31px 14px;
+    float: right;
+    
+}
+.banner-cont{
+    width: 90%;
+    height: 50%;
+    margin-top: 35vh;
+    
+    position: absolute;
+}
+.banner-cont h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600 ;
+    line-height: 70px;
+}
+.banner-cont h6{
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+}
+.btn1{
+    width: 160px;
+    background-color: #e47312;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 14px;
+}
+.sub{
+    width: 85%;
+    height: 30vh;
+    background: rgb(253,29,29);
+    background: linear-gradient(0deg, rgba(253,29,29,0.9025735294117647) 0%, rgba(244,76,4,1) 44%, rgba(228,115,18,1) 100%);
+    display:flex;
+    float: right;
+    position: relative;
+    justify-content: center;
+    margin-top: -17vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub1, .sub3, .sub2{
+    width:30%;
+    /*background-color: #e47312;*/
+    text-align: center; 
+}
+
+.info-img{
+    width: 24px;
+    margin-top: 15%;
+}
+.sub h1{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sub p{
+    font-size: 17px;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.sub3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sub3 a:hover{
+    text-decoration-line: underline;
+    line-height: 20px;
+}
+.mini-ftr{
+    width: 8vh;
+    height: 32vh;
+    background: black;
+    display:flex;
+    float: right;
+    position: relative;
+    justify-content: center;
+    margin-top: -48vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mini-ftr ul{
+    display: inline-block;
+    
+
+}
+.mini-ftr ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 2vh;
+    
+}
+.mini-ftr img{
+    width: 4vh;
+    height:4vh;
+    padding: 5px;
+    border-bottom: 0.5px solid white;
+}
+.main-1{
+    height: 60vh;
+    margin-top: 12%;
+    position: relative;
+}
+.os1 h1{
+    font-size: 20vh;
+    color: #d0d2d819;
+    font-weight: 500;
+}
+.os2{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+
+}
+.os2-1,.os2-2{
+    width: 50%;
+
+}
+.os2-1 h3{
+    font-size: 6vh;
+    font-weight: 600;
+}
+.os2-2{
+    justify-content: right;
+    text-align: right;
+}
+.os2-2 h5{
+    font-size: 15px;
+    font-weight: 300;
+    color: #cacbd0;
+}
+.os3{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+.os3 img{
+    width: 10vh;
+    height: 10vh;
+}
+.os3-1,.os3-3{
+    width: 25%;
+    height: 40vh;
+
+}
+.os3-2,.os3-4{
+    width: 25%;
+    height: 40vh;
+}
+.os3 h1{
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+.os3 p{
+    font-size: 17px;
+    color:#cacbd0;
+}
+.os3 a{
+    text-decoration: none;
+    color:#cacbd0;
+    font-size:2vh;
+}
+.main-2{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+.ww1{
+    width: 50%;
+    height: 55vh;
+}
+.ww1 img{
+    width: 100%;
+    height: 100%;
+}
+.ww2{
+    width: 50%;
+    height: 55vh;
+}
+.ww2 h1,p{
+    margin-left: 20%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.ww2 h1{
+    margin-top: 4vh;
+    font-size: 6vh;
+    font-weight: 600;
+}
+.ww2 p{
+    font-size: 2.5vh;
+    color: #919197;
+}
+.mt{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.ww2 a{
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: #919197;
+    font-weight: 600;
+}
+.ww2 a:hover {
+    text-decoration-line: underline;
+}
+
+.main-3{
+    width: 100%;
+    height: 25vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.nt1,.nt2,.nt3,.nt4{
+    width: 25%;
+}
+
+.fun-title{
+    margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.item-text {
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 0%;
+    text-align: justify;
+    
+  }
+.ow{
+    width: 100%;
+    height: 90vh;
+    display: inline-block;
+  }
+.ow1{
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    justify-content: center;
+}
+.ow2{
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    justify-content: center;
+}
+.ow1-1, .ow1-3, .ow2-2{
+    width: 28%;
+    margin-right: 2vh;
+}
+.ow1-2,.ow2-1,.ow2-3{
+    width: 28%;
+    margin-right: 2vh;
+}
+.project-img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+.circle{
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    background-color: #e47312;
+    z-index: 1000 !important;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute;
+    
+
+}
+.circle p{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh !important;
+    font-size: 10px;
+    margin-left: 0% !important;
+    margin-top:15% !important;
+    justify-content: center;
+    text-align: center;
+    
+}
+.hide{
+    display: none;
+}
+.active:hover .hide{
+    display: block;
+    transition: 0.3s;
+    
+
+}
+.active:hover .project-img{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.main-5{
+    background-color:#e47312;
+    width: 100%;
+    height: 40vh;
+}
+.main-5-1{
+    width: 80%;
+    height:25vh;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 7.5vh;
+    justify-content: center;
+    position: absolute;
+    float: center;
+    text-align: center;
+}
+.main-5-1 h1{
+    font-size: 7vh;
+    font-weight: 600;
+    color: white;
+    margin-top: 3vh;
+}
+.main-5-1 h5{
+    font-size: 3vh;
+    font-weight: 300;
+    color: white;
+    margin-top: 6vh;
+}
+.main-5-1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.gq{
+    margin-top: 3vh;
+}
+.main-5-1 a:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.main-6-1{
+    margin-top: 10vh;
+    width: 100%;
+    height: 20vh;
+
+}
+.main-6-2{
+    width: 100%;
+    height: 70vh;
+    background-color: #cacbd0;
+    display: flex;
+}
+.pr1, .pr2, .pr3, .pr4{
+    width: 22%;
+    height: 70vh;
+    background-color: white;
+    margin-right: 3%;
+    float: center;
+
+}
+.pr1{
+    margin-left: 3%;
+}
+.pr1-1{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.pr1-3{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.pr1-4{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.pr1-5{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.name{
+    font-size: 3vh;
+    font-weight: 600;
+    margin-top: 8vh;
+    margin-left: 10%;
+}
+.job-title{
+    font-size: 2.5vh;
+    font-weight:500 ;
+    margin-top: 3vh;
+    margin-left: 10%;
+}
+.mini-ftr1{
+    width: 8vh;
+    height: 28vh;
+    background-color: #e47312;
+    display:flex;
+    float: right;
+    position: relative;
+    justify-content: center;
+    margin-top: -24.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mini-ftr1 ul{
+    display: inline-block;
+    
+
+}
+.mini-ftr1 ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 2vh;
+    
+}
+.mini-ftr1 img{
+    width: 5vh;
+    height:5vh;
+    padding: 5px;
+    border-bottom: 0.05px solid white;
+}
+.main-7{
+    width: 100%;
+    height: 85vh;
+    margin-top: 15vh;
+    background-color:#cacbd0;
+    display: flex;
+}
+.tt-1{
+    width: 40%;
+    height: 100%;
+
+}
+.main-7-1{
+    width: 60%;
+    height: 100%;
+    display: block;
+
+}
+.tt-1-1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+.tt-2-1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+.tt-2{
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    margin-left: 2%;
+    
+}
+.tt-3{
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    margin-top: 5% ;
+    margin-left: 7.5%;
+}
+.tt-4{
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    margin-left: 2%;
+
+}
+.tt-5{
+    background-color: white;
+    height: 35vh;
+    width: 45%;
+    margin-top: 5% ;
+    margin-left: 7.5%;
+    
+}
+.circle-1{
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(214, 84, 4);
+    border-radius: 50%;
+    margin-left: 40%;
+    display: relative;
+    margin-top: -2.5vh;
+}
+.tt-3-1{
+    margin-top: 50%;
+}
+.tt-3-1 h1{
+    font-size: 7vh;
+    font-weight: 600;
+}
+.tt-3-1 p{
+    margin-top: 5%;
+    font-size: 2vh;
+    margin-left: 0%;
+    color:#919197;
+}
+.tt-3-1 a{
+    color: #9e9ea1;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.tt-3-1 a:hover{
+    text-decoration-line: underline;
+}
+.ln{
+    background-color: grey;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.ln-1, .ln-2,.ln-3{
+    background: rgb(253,29,29);
+    background: linear-gradient(0deg, rgba(253,29,29,0.9025735294117647) 0%, rgba(244,76,4,1) 44%, rgba(228,115,18,1) 100%);
+    width: 32%;
+    margin-right: 3.33%;
+}
+.ln-3{
+    margin-right: 0% !important;
+}
+.ln-1-1{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+.ln-2-1{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.ln-3-1{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.ln-1-2 h1{
+    font-size: 3vh;
+    font-weight: 600;
+    color: white;
+    margin-top: 4vh;
+    margin-left: 15%;
+}
+.ln-1-2 p{
+    font-size: 2.5vh;
+    color: hsla(0, 0%, 100%, 0.7);
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.read{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.read a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+.read a:hover{
+    text-decoration-line: underline;
+}
+.meta-tag{
+    background-color: #e47312;
+    width: 10vh;
+    height: 15vh;
+    margin-top: 0% !important;
+    margin-left: 24% !important;
+    position: absolute;
+    display: block;
+}
+.meta-number{
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 30% !important;
+    margin-left: 30% !important;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 25%;
+    margin-left: 25%;
+
+}
+.meta-month{
+    background-color: #fff;
+    color: #9d9da5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftr2{
+    background-image: linear-gradient(56deg, #e47312, #ff6361);
+    display: flex;
+    width: 98%;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.logo6, .logo1, .logo2, .logo3, .logo4, .logo5{
+    width: 20%;
+    height: 10vh;
+    float: left;
+    text-align: center;
+    margin-top: 7.5vh;
+    color: white;
+}
+.logo6{
+    float: left;
+    font-size: 2vh;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 0% !important;
+}
+.ftr3{
+    background-color: #0c1225;
+    width: 80%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color:white;
+}
+.ftr-3-1, .ftr-3-2, .ftr-3-3{
+    width: 30%;
+    margin-left: 2%;
+    background-color: #414147;
+}
+.ftr-3-1, .ftr-3-2,.ftr-3-3{
+    display: flex;
+}
+.ftr-3-1-1 h1, .ftr-3-2-1 h1, .ftr-3-3-1 h1{
+    color: white;
+    font-size: 2.5vh;
+}
+.ftr-3-1-1{
+    margin-top: 10vh;
+    margin-left: 3vh;
+    width: 40%;
+}
+.ftr-3-2-1{
+    margin-top: 10vh;
+    margin-left: 3vh;
+    width: 40%;
+}
+.ftr-3-3-1{
+    margin-top: 10vh;
+    margin-left: 3vh;
+    width: 40%;
+}
+.ftr-3-1-2{
+    height: 1px;
+    width: 50%;
+    background-color: #e47312;
+    margin-top:11vh ;
+}
